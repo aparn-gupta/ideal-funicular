@@ -24,12 +24,20 @@
                 'transparent' : '#ffffff24'
               },
               width: {
-                'w-81': '21rem',
-              'w-82': '22rem',
-              "w-84": "336px",
-              "w-88": "352px",
+                '81': '21rem',
+              '82': '22rem',
+              "84": "336px",
+              "88": "352px",
+              '238': "950px"
 
             },
+            height: {
+              '138': '35rem',
+              '238': '950px'
+            },
+            padding: {
+              '26' : '6.5rem'
+            }
               
             }
           }
@@ -81,7 +89,7 @@
     <p  class="flex justify-center lg:text-left "> Email: random@random.com</p> 
   </div>
   
-    <div class="lg:mr-12 flex justify-center lg:block">   
+    <div class="lg:mr-12 flex mt-2 lg:mt-0 justify-center lg:block">   
       <p class=""> <i class="fa-brands fa-twitter mx-4"></i>  Twitter</p>
      <p class=""> <i class="fa-brands fa-facebook mx-4"></i>Facebook</p>
       <p class=""> <i class="fa-brands fa-instagram mx-4"></i> Instagram</p>
@@ -105,18 +113,18 @@
   
 
    <div class="  lg-block">
-    <button id="slide-1" class="absolute top-1/2 left-16 text-4xl z-40 w-20 h-20 bg-transparent font-thin"> &lt </button>
-    <button  id="slide-2" class="absolute top-1/2 right-16 text-4xl z-40  w-20 h-20 bg-transparent font-thin"> &gt </button>
+    <button id="slide-1" class=" hidden lg:block absolute top-1/2 left-16 text-4xl z-40 w-20 h-20 bg-transparent font-thin"> &lt </button>
+    <button  id="slide-2" class=" hidden lg:block  absolute top-1/2 right-16 text-4xl z-40  w-20 h-20 bg-transparent font-thin"> &gt </button>
    </div>
 
 
 
     <img src="https://www.employmentlawhandbook.com/wp-content/uploads/2021/06/two-women-at-work-in-a-workplace.jpg" id= "background-img-1" class="w-screen h-screen grayscale brightness-50 z-40"/> 
-    <img src= "https://assets.entrepreneur.com/content/3x2/2000/20160603173131-businesswoman-working-desk-workplace.jpeg" id= "background-img-2" class="w-screen h-screen grayscale brightness-50  z-40"/> 
+    <img src= "https://assets.entrepreneur.com/content/3x2/2000/20160603173131-businesswoman-working-desk-workplace.jpeg" id= "background-img-2" class="w-screen h-screen grayscale brightness-50  z-40 hidden lg:block"/> 
     
 
     
-    <div  class=" py-4 px-6  flex justify-between  absolute top-0 left-0 lg:py-8 lg:px-6 border-b-2 border-grey z-40  "> 
+    <div  class=" py-4 px-4  flex justify-between  absolute top-0 left-0 lg:py-8 lg:px-6 border-b-2 border-grey z-40  "> 
 
       <div>
           <img class="w-28 h-12" src="https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" />
@@ -134,7 +142,7 @@
   
       <div   class="text-white ml-52 lg:ml-0 ">
           <i   class="fa-solid fa-magnifying-glass fa-2x"></i>
-          <i id="menuu"  class="fa-solid fa-bars fa-2x lg:ml-4"></i>
+          <i id="menuu"  class="fa-solid fa-bars fa-2x lg:ml-4 ml-3"></i>
       </div>
 
     </div>
@@ -144,7 +152,7 @@
 
   
   
-    <div class = "absolute flex justify-center top-0 left-0 lg:py-52 lg:px-64 py-80 px-20 text-white uppercase">
+    <div class = "absolute flex justify-center top-0 left-0 lg:py-52 lg:px-64 py-80 px-16 text-white uppercase">
       <div>
         <p class="lg:text-2xl  text-center"> Welcome to Random agency </p>
       <p class="lg:text-9xl text-5xl font-bold text-center"> Smart Web design agency</p>  
@@ -178,7 +186,7 @@
     <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56 ">  <div class="flex justify-center"> <img src = "https://www.newlifepismo.com/wp-content/uploads/2018/12/website-icon-gray.png" class="w-16 h-16  "/>  </div> <p class=" text-center uppercase  mt-4  justify-center lg:px-6 ">  Website Development</p> </div>
     <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56  "> <div class="flex justify-center"> <img src = "https://cdn-icons-png.flaticon.com/512/9213/9213977.png" class="w-16 h-16"/> </div> <p class="text-center uppercase  mt-4  flex justify-center lg:px-6 ">Graphic Designing</p> </div>
     <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56 "> <div class="flex justify-center">  <img src = "https://cdn-icons-png.flaticon.com/512/8021/8021400.png" class="w-16 h-16"/> </div> <p class="text-center uppercase  mt-4  flex justify-center lg:px-6 "> Digital Marketing</p></div> 
-    <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56 "> <div class="flex justify-center"> <img src = "https://icon-library.com/images/content-icon/content-icon-15.jpg" class="w-16 h-16"/> </div> <p class="text-center uppercase  mt-4  flex justify-center lg:px-6 ">SEO and Content Writing</p>   </div>  
+    <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56  "> <div class="flex justify-center"> <img src = "https://icon-library.com/images/content-icon/content-icon-15.jpg" class="w-16 h-16"/> </div> <p class="text-center uppercase  mt-4  flex justify-center lg:px-6 ">SEO and Content Writing</p>   </div>  
     <div class="border-2 border-grey lg:px-0 lg:pt-28 lg:pb-16 px-20 py-10 mb-4 lg:w-56 "> <div class="flex justify-center"> <img src = "https://applicgate.com/wp-content/uploads/2019/10/icon-remote-service-platform.png" class="w-16 h-16"/> </div> <p class="text-center uppercase  mt-4  flex justify-center lg:px-6 ">App Development</p>  </div> 
   </div>
 
@@ -214,19 +222,20 @@
   
 
 
-  <div class="bg-lightgrey lg:pt-20  lg:pb-0 mt-6 lg:mt-0 oswald">
-   <div class="flex justify-center  lg:px-40 px-10 py-16 lg:py-16">
+  <div class="bg-lightgrey lg:pt-8  lg:pb-0 mt-6 lg:mt-0 ">
+   <div class="flex justify-center  lg:px-40 px-10 py-16 pb-32 lg:pb-40">
     <div>
       <p class="uppercase text-sm my-2 text-center text-grey">HOW WE WORK</p>
     <p class="lg:text-5xl text-4xl uppercase my-2  text-center">DIGITAL EXPERIENCE</p>
-    <p class="my-8  text-grey lg:pr-20 text-lg  text-center lg:px-16 oswald">We are dedicated to delivering exceptional services to our customers and providing top-notch training for our employees.</p>
+    <p class="my-8  text-grey  text-lg  text-center lg:px-64 ">We are dedicated to delivering exceptional services to our customers and providing top-notch training for our employees.</p>
     </div>
    </div>
+  </div>
 
 
    <div id="video-container">
     <div class = "flex justify-center"> 
-      <iframe width="950" height="550" src="https://www.youtube.com/embed/btpWt1Cas2I?si=BErrYmErDbwPBVlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+      <iframe class="lg:w-238 lg:h-138 w-96 h-64" src="https://www.youtube.com/embed/btpWt1Cas2I?si=BErrYmErDbwPBVlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
       <button id="close-btn" class="w-6 h-6 text-2xl"> X </button>
     </div>
 
@@ -239,15 +248,16 @@
 
 
    
-  <div class=" relative h-96 "  id= "img3-container">
+  <div class=" relative lg:h-72 h-48 lg:w-screen "  id= "img3-container">
    
    
-   <div class="flex justify-center absolute top-0 left-0 w-screen h-screen px-6 lg:px-0 ">   <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-group-of-multiethnic-busy-people-working-in-an-office-mixed-race-team-of-young-business-people-working-together_b7fnursum_thumbnail-1080_01.png" class="grayscale lg:w-2/3  w-full h-56 lg:h-2/3"/> </div>
-    <img src="https://icons.veryicon.com/png/o/miscellaneous/food-time/play-video-1.png" class="absolute inset-1/4 lg:inset-1/2  w-16 h-16  lg:w-24 lg:h-24 bg-myred top-1/2 right-2/4" id="watch" />   
-   <div class="flex justify-center">  <p class="absolute bottom-56 lg:bottom-12 lg:text-5xl text-4xl uppercase" > Watch Video</p>  </div>  
+   <div class="flex justify-center absolute -top-16 left-0 w-screen lg:h-138 h-72 px-12 lg:px-0 ">   <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-group-of-multiethnic-busy-people-working-in-an-office-mixed-race-team-of-young-business-people-working-together_b7fnursum_thumbnail-1080_01.png" class="grayscale w-5/6  absolute lg:w-2/3  -top-16 -top-8  h-72 lg:h-138"/> 
+    <img src="https://icons.veryicon.com/png/o/miscellaneous/food-time/play-video-1.png" class="absolute  w-16 h-16  lg:w-24 lg:h-24  top-16 bg-myred lg:top-36 " id="watch" />   
+     <p class="absolute lg:top-72 lg:bottom-12 top-36 lg:text-5xl text-4xl uppercase" > Watch Video</p> 
+  </div>
   </div>
 
-</div>
+
 
 
 
@@ -426,7 +436,7 @@
           <div class="swiper-slide">  <img class="w-64 h-52" src="https://img.freepik.com/premium-vector/fox-logo_103224-128.jpg"/> </div>
           <div class="swiper-slide">  <img class="w-64 h-52" src="https://static.vecteezy.com/system/resources/previews/008/213/986/original/colorful-beauty-peacock-logo-design-free-vector.jpg"/>
           </div>
-          <div class="swiper-slide">  <img class="w-64 h-52" src="https://static.vecteezy.com/system/resources/previews/000/176/200/original/vector-abstract-company-logo-template-design-illustration.jpg"/> </div>
+          <div class="swiper-slide">  <img class="w-64 h-52 " src="https://static.vecteezy.com/system/resources/previews/000/176/200/original/vector-abstract-company-logo-template-design-illustration.jpg"/> </div>
           <div class="swiper-slide">   <img class="w-64 h-52" src="https://img.freepik.com/premium-vector/awesome-bird-modern-color-logo-design_153291-51.jpg"/> </div>
           <div class="swiper-slide">   <img class="w-64 h-52" src="https://img.freepik.com/premium-vector/fox-logo_103224-128.jpg"/> </div>
           <div class="swiper-slide">  <img class="w-64 h-52" src="https://static.vecteezy.com/system/resources/previews/008/213/986/original/colorful-beauty-peacock-logo-design-free-vector.jpg"/>
@@ -502,7 +512,7 @@
 
 
 
-  <div class="lg:flex lg:justify-between lg:px-32 mt-24">
+  <div class="lg:flex lg:justify-between lg:px-32 mt-24 lg:mt-0">
 
 
 
@@ -569,7 +579,7 @@
 
 
 
-  <div class="lg:flex lg:justify-between bg-black text-white lg:p-40 px-6 py-32 ">
+  <div class="lg:flex lg:justify-between bg-black text-white lg:p-40 px-6 py-32  ">
     <div class="footnote-column">
       <img src= "https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" class="w-28 h-12 mb-8" />
       <p class="w-80 text-grey "> Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. 

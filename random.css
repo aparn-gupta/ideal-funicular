@@ -1,13 +1,9 @@
-.body {
-  font-family: 'Oswald', 'sans-serif';
-  color: #7fffd4;
-}
 
 
 .menubar-options {
     
     background-color: hsla(0, 0%, 0%, 0.878);
-    display: none;
+    
     color: #ffffff24;
     
 
